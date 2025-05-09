@@ -1,6 +1,6 @@
 ﻿namespace crudaplikasi
 {
-    partial class ManajemenProdukToko
+    partial class ManajemenInventaris
     {
         /// <summary>
         /// Required designer variable.
@@ -33,7 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.txtNama = new System.Windows.Forms.TextBox();
-            this.txtHarga = new System.Windows.Forms.TextBox();
+            this.txtKuantitas = new System.Windows.Forms.TextBox();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnUbah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
@@ -65,9 +65,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(21, 82);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 13);
+            this.label3.Size = new System.Drawing.Size(51, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Harga";
+            this.label3.Text = "Kuantitas";
             // 
             // txtID
             // 
@@ -83,12 +83,12 @@
             this.txtNama.Size = new System.Drawing.Size(172, 20);
             this.txtNama.TabIndex = 4;
             // 
-            // txtHarga
+            // txtKuantitas
             // 
-            this.txtHarga.Location = new System.Drawing.Point(86, 80);
-            this.txtHarga.Name = "txtHarga";
-            this.txtHarga.Size = new System.Drawing.Size(172, 20);
-            this.txtHarga.TabIndex = 5;
+            this.txtKuantitas.Location = new System.Drawing.Point(86, 80);
+            this.txtKuantitas.Name = "txtKuantitas";
+            this.txtKuantitas.Size = new System.Drawing.Size(172, 20);
+            this.txtKuantitas.TabIndex = 5;
             // 
             // btnTambah
             // 
@@ -135,30 +135,30 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 139);
+            this.dataGridView1.Location = new System.Drawing.Point(21, 120);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(429, 217);
+            this.dataGridView1.Size = new System.Drawing.Size(433, 288);
             this.dataGridView1.TabIndex = 10;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
-            // ManajemenProdukToko
+            // ManajemenInventaris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(471, 373);
+            this.ClientSize = new System.Drawing.Size(478, 434);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnUbah);
             this.Controls.Add(this.btnTambah);
-            this.Controls.Add(this.txtHarga);
+            this.Controls.Add(this.txtKuantitas);
             this.Controls.Add(this.txtNama);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "ManajemenProdukToko";
+            this.Name = "ManajemenInventaris";
             this.Text = "Manajemen Produk Toko";
             this.Load += new System.EventHandler(this.ManajemenProdukToko_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -174,7 +174,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.TextBox txtNama;
-        private System.Windows.Forms.TextBox txtHarga;
+        private System.Windows.Forms.TextBox txtKuantitas;
         private System.Windows.Forms.Button btnTambah;
         private System.Windows.Forms.Button btnUbah;
         private System.Windows.Forms.Button btnHapus;

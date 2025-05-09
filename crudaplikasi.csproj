@@ -115,17 +115,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="koneksi.cs" />
-    <Compile Include="ManajemenProdukToko.cs">
+    <Compile Include="ManajemenInventaris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManajemenProdukToko.Designer.cs">
-      <DependentUpon>ManajemenProdukToko.cs</DependentUpon>
+    <Compile Include="ManajemenInventaris.Designer.cs">
+      <DependentUpon>ManajemenInventaris.cs</DependentUpon>
     </Compile>
     <Compile Include="produk.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ManajemenProdukToko.resx">
-      <DependentUpon>ManajemenProdukToko.cs</DependentUpon>
+    <EmbeddedResource Include="ManajemenInventaris.resx">
+      <DependentUpon>ManajemenInventaris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

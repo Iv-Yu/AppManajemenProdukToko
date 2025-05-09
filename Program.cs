@@ -16,7 +16,7 @@ namespace crudaplikasi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ManajemenProdukToko());
+            Application.Run(new ManajemenInventaris());
         }
     }
 }

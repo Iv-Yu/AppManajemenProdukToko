@@ -1,11 +1,14 @@
-﻿using System.Data.SqlClient;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 
-public class Koneksi
+namespace crudaplikasi
 {
-    public MySqlConnection GetConn()
+    public static class Koneksi
     {
-        string connStr = "server=localhost;user id=root;password=;database=manageproduk;";
-        return new MySqlConnection(connStr);
+        private static string connectionString = "server=localhost;user=root;password=;database=manageproduk;";
+
+        public static MySqlConnection GetConnection()
+        {
+            return new MySqlConnection(connectionString);
+        }
     }
 }
