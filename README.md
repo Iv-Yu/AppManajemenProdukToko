@@ -20,7 +20,7 @@ Mockup awal aplikasi dirancang menggunakan AI tools untuk menggambarkan tampilan
 
 ## 🛠 Teknologi yang Digunakan
 - C# (WinForms)
-- .NET Framework / .NET Core
+- .NET Framework
 - SQL Server
 - GitHub
 
